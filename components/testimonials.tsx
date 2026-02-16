@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import React from "react";
 import { Badge, GlassCard } from "./aextera-theme";
+import Image from "next/image";
 
 const testimonials = [
     {
@@ -108,10 +109,12 @@ export const Testimonials = () => {
                         >
                             <GlassCard className="p-8 h-full flex flex-col gap-6 border-white/10 bg-white/5">
                                 <div className="flex items-center gap-4">
-                                    <img
+                                    <Image
                                         src={t.avatar}
                                         alt={t.name}
-                                        className="h-12 w-12 rounded-full border-2 border-aextera-coral"
+                                        width={48}
+                                        height={48}
+                                        className="rounded-full border-2 border-aextera-coral"
                                     />
                                     <div>
                                         <h4 className="font-semibold text-white">

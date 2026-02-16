@@ -3,6 +3,7 @@
 import { motion } from "motion/react";
 import React from "react";
 import { Badge } from "./aextera-theme";
+import Image from "next/image";
 
 export const Mission = () => {
     return (
@@ -15,10 +16,11 @@ export const Mission = () => {
                         viewport={{ once: true }}
                         className="relative h-[500px] w-full rounded-3xl overflow-hidden"
                     >
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1522071823991-b59fe57d3891?q=80&w=2670&auto=format&fit=crop"
                             alt="Our Mission"
-                            className="h-full w-full object-cover"
+                            fill
+                            className="object-cover"
                         />
                         <div className="absolute inset-0 bg-aextera-coral/10 backdrop-blur-[2px]" />
                     </motion.div>

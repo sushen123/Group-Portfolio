@@ -5,6 +5,7 @@ import React from "react";
 import { Badge } from "./aextera-theme";
 
 import { Project } from "@/lib/data";
+import Image from "next/image";
 
 interface ProjectsProps {
     projects: Project[];
@@ -43,10 +44,11 @@ export const Projects = ({ projects }: ProjectsProps) => {
                         >
                             {/* Image Container */}
                             <div className="relative mb-6 aspect-[16/10] overflow-hidden rounded-[2rem] border border-white/10 bg-white/5 shadow-2xl transition-all duration-500 group-hover:border-white/20 group-hover:shadow-[0_20px_40px_-15px_rgba(255,255,255,0.05)]">
-                                <img
+                                <Image
                                     src={project.image}
                                     alt={project.title}
-                                    className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-105"
+                                    fill
+                                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
                                 />
                                 <div className="absolute inset-0 bg-aextera-dark/20 transition-colors duration-500 group-hover:bg-transparent" />
 

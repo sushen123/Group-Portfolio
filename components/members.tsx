@@ -5,6 +5,7 @@ import React from "react";
 import { AuroraGlow } from "./aextera-theme";
 
 import { Member } from "@/lib/data";
+import Image from "next/image";
 
 interface MembersProps {
     members: Member[];
@@ -43,10 +44,11 @@ export const Members = ({ members }: MembersProps) => {
                             className="group relative cursor-pointer"
                         >
                             <div className="relative mb-4 aspect-[3/4] overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-2xl transition-all duration-500 group-hover:border-aextera-coral/30 group-hover:shadow-aextera-coral/10">
-                                <img
+                                <Image
                                     src={member.image}
                                     alt={member.name}
-                                    className="h-full w-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
+                                    fill
+                                    className="object-cover transition-transform duration-700 ease-out group-hover:scale-110"
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-60 transition-opacity duration-300 group-hover:opacity-80" />
 
