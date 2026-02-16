@@ -3,6 +3,14 @@
 import { motion } from "motion/react";
 import React from "react";
 import { AuroraGlow } from "./aextera-theme";
+import { IconBrandGithub, IconBrandInstagram, IconBrandLinkedin, IconBrandTwitter } from "@tabler/icons-react";
+
+const socials = [
+    { name: "LinkedIn", icon: IconBrandLinkedin, href: "#" },
+    { name: "Twitter", icon: IconBrandTwitter, href: "#" },
+    { name: "Instagram", icon: IconBrandInstagram, href: "#" },
+    { name: "GitHub", icon: IconBrandGithub, href: "#" },
+];
 
 export const Contact = () => {
     return (
@@ -110,14 +118,14 @@ export const Contact = () => {
                         <div>
                             <h3 className="mb-6 text-lg font-bold text-white">Follow Us</h3>
                             <div className="flex gap-4">
-                                {["LinkedIn", "Twitter", "Instagram", "GitHub"].map((social) => (
+                                {socials.map((social) => (
                                     <a
-                                        key={social}
-                                        href="#"
+                                        key={social.name}
+                                        href={social.href}
                                         className="flex h-10 w-10 items-center justify-center rounded-full border border-white/10 bg-white/5 text-white/60 transition-all hover:border-aextera-coral hover:bg-aextera-coral hover:text-white"
                                     >
-                                        <span className="sr-only">{social}</span>
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M7 17L17 7" /><path d="M7 7h10v10" /></svg>
+                                        <span className="sr-only">{social.name}</span>
+                                        <social.icon size={18} />
                                     </a>
                                 ))}
                             </div>
