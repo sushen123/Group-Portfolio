@@ -7,51 +7,11 @@ import Image from "next/image";
 
 const testimonials = [
     {
-        name: "Theresa Webb",
-        role: "Marketing Manager",
+        name: "Roshan Budha",
+        role: "Co-Founder of Clippo",
         content:
-            "Aextera transformed our vision into a digital masterpiece. Their AI agents have automated 40% of our workflow and boosted our productivity.",
+            "Aextera transformed our vision into a digital masterpiece. They build a website that is both visually stunning and functional.",
         avatar: "https://avatar.vercel.sh/theresa",
-        rating: 5,
-    },
-    {
-        name: "Sarah Ahmed",
-        role: "UX Designer",
-        content:
-            "The web design is simply breathtaking. We've seen a 50% increase in user engagement since the launch. Highly recommend their services.",
-        avatar: "https://avatar.vercel.sh/sarah-ahmed",
-        rating: 5,
-    },
-    {
-        name: "James Carter",
-        role: "Product Manager",
-        content:
-            "Scale and performance are exactly what we needed. Their development team is top-notch and visionary in every aspect.",
-        avatar: "https://avatar.vercel.sh/james-carter",
-        rating: 5,
-    },
-    {
-        name: "Elena Rodriguez",
-        role: "Creative Director",
-        content:
-            "Working with them was a seamless experience. They don't just build, they innovate with you and deliver beyond expectations.",
-        avatar: "https://avatar.vercel.sh/elena-r",
-        rating: 5,
-    },
-    {
-        name: "Michael Chen",
-        role: "Software Engineer",
-        content:
-            "Their technical expertise is unmatched. The solutions they built for us are robust, scalable, and beautifully crafted.",
-        avatar: "https://avatar.vercel.sh/michael-chen",
-        rating: 5,
-    },
-    {
-        name: "Olivia Park",
-        role: "Startup Founder",
-        content:
-            "From concept to launch, they guided us every step of the way. Our platform looks and performs better than we ever imagined.",
-        avatar: "https://avatar.vercel.sh/olivia-park",
         rating: 5,
     },
 ];
@@ -94,7 +54,7 @@ export const Testimonials = () => {
                     </p>
                 </motion.div>
 
-                <div className="flex gap-6 overflow-x-auto pb-8 no-scrollbar snap-x snap-mandatory scroll-smooth">
+                <div className="flex gap-6 overflow-x-auto pb-8 no-scrollbar snap-x snap-mandatory scroll-smooth md:justify-center">
                     {testimonials.map((t, i) => (
                         <motion.div
                             key={i}
