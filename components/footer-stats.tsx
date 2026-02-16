@@ -5,9 +5,9 @@ import React, { useEffect, useRef } from "react";
 import { AuroraGlow } from "./aextera-theme";
 
 const stats = [
-    { label: "Client Satisfication", value: 95, suffix: "%" },
-    { label: "Projects Completed", value: 1, suffix: "K+" },
-    { label: "Revenue Generated", value: 2, suffix: "M+" },
+    { label: "Client Satisfication", value: 0, suffix: "%" },
+    { label: "Projects Completed", value: 0, suffix: "K+" },
+    { label: "Revenue Generated", value: 0, suffix: "M+" },
 ];
 
 function AnimatedCounter({

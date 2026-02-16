@@ -19,7 +19,7 @@ export default async function Home() {
       <Hero />
       <Services />
       <Projects projects={projects} />
-      <Achievements />
+      {/* <Achievements /> */}
       <Testimonials />
       <FAQ />
       <Members members={members} />
