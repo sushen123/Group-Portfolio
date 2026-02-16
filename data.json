@@ -1,0 +1,110 @@
+{
+  "members": [
+    {
+      "id": "1",
+      "name": "Alex Doe",
+      "role": "Founder & CEO",
+      "image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=2574&auto=format&fit=crop",
+      "socials": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Sarah Smith",
+      "role": "Lead Designer",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=2576&auto=format&fit=crop",
+      "socials": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Michael Brown",
+      "role": "Senior Developer",
+      "image": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2670&auto=format&fit=crop",
+      "socials": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Emily Davis",
+      "role": "Product Manager",
+      "image": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=2661&auto=format&fit=crop",
+      "socials": {
+        "linkedin": "#",
+        "twitter": "#"
+      }
+    },
+    {
+      "id": "91b5b286-12d0-4703-aa2b-f264704e371c",
+      "name": "Test User",
+      "role": "Tester",
+      "image": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde",
+      "socials": {
+        "linkedin": "https://linkedin.com",
+        "twitter": ""
+      }
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "E-Commerce Website Design",
+      "description": "Our e-commerce website design blends modern aesthetics with smooth functionality.",
+      "image": "https://images.unsplash.com/photo-1661956602116-aa6865609028?q=80&w=2564&auto=format&fit=crop",
+      "tags": [
+        "Web Design",
+        "UI/UX",
+        "Solving"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Mobile App MVP Design",
+      "description": "Our mobile app MVP design focuses on simplicity, speed, efficiently your brand's essence.",
+      "image": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2670&auto=format&fit=crop",
+      "tags": [
+        "Development",
+        "Mobile",
+        "Solving"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "AI Business Automation",
+      "description": "We integrated custom AI agents to automate redundant tasks such as data entry.",
+      "image": "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=2574&auto=format&fit=crop",
+      "tags": [
+        "AI Automation",
+        "Efficiency",
+        "LLM"
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Corporate Web Platform",
+      "description": "A high-performance corporate platform built for scale, featuring advanced analytics.",
+      "image": "https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=2574&auto=format&fit=crop",
+      "tags": [
+        "Web Development",
+        "Portal",
+        "Scalability"
+      ]
+    },
+    {
+      "id": "1276f59f-275e-4568-958c-e5e378cafaf6",
+      "title": "Test Project",
+      "description": "Dashboard test",
+      "image": "https://images.unsplash.com/photo-1550745165-9bc0b252726f",
+      "tags": [
+        "Test",
+        "Admin"
+      ]
+    }
+  ]
+}
