@@ -153,8 +153,8 @@ export const Footer = () => {
                             <p className="text-xl font-semibold text-white">
                                 Save time. Get Started Now.
                             </p>
-                            <a href="mailto:hello@aextera.com" className="text-white/60 hover:text-white transition-colors">
-                                hello@aextera.com
+                            <a href="mailto:sushensame@gmail.com" className="text-white/60 hover:text-white transition-colors">
+                                sushensame@gmail.com
                             </a>
                         </div>
 
